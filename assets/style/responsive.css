@@ -1,0 +1,39 @@
+@media (max-width: 1023px) {
+    #center__nike {
+        font-size: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    #center__nike {
+        font-size: 100px;
+    }
+
+    .main__logo a img {
+        max-width: 50px;
+    }
+
+    .shoe__1 {
+        max-width: 200px;
+    }
+
+    .header__icons {
+        display: none;
+    }
+
+    @keyframes open {
+        0% {
+            display: hidden;
+            max-width: 0px;
+            /* transform: translate(-50%, -50%); */
+
+        }
+
+        100% {
+            display: block;
+            /* transform: translateX(100px); */
+            /* transform: translate(-250%, -50%); */
+            max-width: 200px;
+        }
+    }
+}
